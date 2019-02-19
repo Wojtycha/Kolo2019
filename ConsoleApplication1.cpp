@@ -7,6 +7,7 @@ int main()
 {
 	for (int i = 100; i < 1000; i++)
 	{
+		cout << i << endl;
 		string liczba=to_string(i); // konwersja int->string
 		int sum = 0;
 
